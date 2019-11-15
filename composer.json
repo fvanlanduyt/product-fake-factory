@@ -1,0 +1,29 @@
+{
+    "name": "fvanlanduyt/product-fake-factory",
+    "type": "library",
+    "description": "A collection of Products providers for the Faker library",
+    "keywords": ["faker","data"],
+    "homepage": "https://github.com/fvanlanduyt/product-fake-factory",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filip Van Landuyt",
+            "email": "filip.vanlanduyt@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "FilipVanLanduyt\\Faker\\": "src/Faker" }
+    },
+    "autoload-dev": {
+        "psr-4": { "FilipVanLanduyt\\Tests\\Faker\\": "tests/Faker" }
+    },
+    "require": {
+        "php": "^7.0",
+        "fzaninotto/faker": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "php-mock/php-mock": "^2.0"
+    }
+}

@@ -9,5 +9,6 @@ class ProviderCollectionHelper
     {
         $faker->addProvider(new Provider\Product($faker));
         $faker->addProvider(new Provider\Processor($faker));
+        $faker->addProvider(new Provider\ProductGroup($faker));
     }
 }

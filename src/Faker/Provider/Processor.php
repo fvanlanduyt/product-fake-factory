@@ -12,7 +12,7 @@ class Processor extends Base
     ];
     public function processorName(): string
     {
-        return static::randomElement(static::$productNames);
+        return static::randomElement(static::$processorNames);
     }
     
 }

@@ -8,5 +8,6 @@ class ProviderCollectionHelper
     public static function addAllProvidersTo(Generator $faker)
     {
         $faker->addProvider(new Provider\Product($faker));
+        $faker->addProvider(new Provider\Processor($faker));
     }
 }
